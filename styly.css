@@ -73,3 +73,48 @@ body {
     width: 100%;
     justify-self: center;
 }
+
+.strelec-c {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.kral-b {
+    grid-column: 6;
+    grid-row: 8;
+}
+
+.kral-c {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.kun-b {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.pesec-b {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.pesec-c-1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.pesec-c-2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.pesec-c-3 {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.vez-c {
+    grid-column: 3;
+    grid-row: 8;
+}
