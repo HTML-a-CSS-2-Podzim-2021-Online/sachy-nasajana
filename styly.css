@@ -63,10 +63,13 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    background-image: url(obrazky/sachovnice.png);
+    /*background-image: url(obrazky/sachovnice.png);
     background-size: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-image: url(obrazky/bonus/sachovnice.svg);
+    background-repeat: repeat;
+    background-size: 25%;
     border: 8px solid #4b3b28;
     border-radius: 4px;
     margin: 10px;
