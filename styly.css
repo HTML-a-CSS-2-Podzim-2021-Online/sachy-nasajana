@@ -9,14 +9,8 @@ body {
     font-size: 14px;
 }
 
-.nova-hra button {
-    background-color: rgb(88, 129, 219);
-    color: white;
-    padding: 5px 25px;
-    display: block;
-    margin: auto;
-    border-radius: 4px;
-}
+
+/*  hráči  */
 
 .hraci {
     display: flex;
@@ -30,7 +24,6 @@ body {
 
 .bily {
     order: 1;
-    padding: 10px 10px;
     text-align: left;
 }
 
@@ -39,14 +32,23 @@ body {
     text-align: right;
 }
 
+.cerny,
+.bily {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .bily h3,
 .cerny h3 {
     margin: 2px 2px;
+    font-size: 1em;
 }
 
 .bily p,
 .cerny p {
     margin: 2px 2px;
+    font-size: 0.8em;
 }
 
 .hraci img {
@@ -54,7 +56,7 @@ body {
     height: 60px;
     object-fit: cover;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 10px;
 }
 
 .sachovnice {
@@ -67,6 +69,7 @@ body {
     background-repeat: no-repeat;
     border: 8px solid #4b3b28;
     border-radius: 4px;
+    margin: 10px;
 }
 
 .fig {
@@ -117,4 +120,21 @@ body {
 .vez-c {
     grid-column: 3;
     grid-row: 8;
+}
+
+.dama-b,
+.dama-c,
+.kun-c,
+.strelec-b,
+.vez-b {
+    display: none;
+}
+
+.nova-hra button {
+    background-color: rgb(88, 129, 219);
+    color: white;
+    padding: 5px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
 }
